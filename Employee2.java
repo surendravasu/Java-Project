@@ -1,13 +1,14 @@
 package tamilnadu.karur;
 import tamilnadu.chennai.Office;
-class Employee2
+class Employee2 extends Office
 {
 public static void main(String[] args)
 {
 Office office = new Office();
 office.do_work();
 office.sign_Attendance();
-	System.out.println(office.travel);
+System.out.println(office.travel);
+	
 
 }
 }
